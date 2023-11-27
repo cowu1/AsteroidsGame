@@ -28,19 +28,16 @@ public void keyPressed(){
   if (key == 'h')
   { 
     bob.setPointDirection((int)(Math.random()*360));
-    background(0);
     bob.setMyCenterX((int)(Math.random()*400));
     bob.setMyCenterY((int)(Math.random()*400));
   }
   if (key== '4')
   {
     bob.rotateClockwise();
-    background (0);
   }
   if (key=='5')
   {
     bob.rotateCounterClockwise();
-    background(0);
   }
 if (key == 'a')
  {
