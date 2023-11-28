@@ -22,7 +22,7 @@ public void draw()
   fill(0);
   bob.show();
   bob.move();
-  redraw();
+
 }
 public void keyPressed(){
   if (key == 'h')
@@ -42,5 +42,6 @@ public void keyPressed(){
 if (key == 'a')
  {
    bob.accelerate(0.25);
- }
+ 
+}
 }
