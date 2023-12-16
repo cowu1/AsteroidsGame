@@ -6,7 +6,7 @@ Star[] nightSky = new Star[200];
 
 public void setup() 
 {
-  size (400,400);
+  size (800,800);
  background(0);
  frameRate(2000);
    for (int i=0; i<nightSky.length;i++)
