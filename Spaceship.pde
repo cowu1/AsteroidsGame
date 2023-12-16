@@ -41,17 +41,17 @@ public void rotateCounterClockwise(){
      {
      return myCenterX;
       }
-       public double getmyCenterY()
+public double getmyCenterY()
      {
      return myCenterY;
       }
  public double getmyXspeed(){
    return myXspeed;
  }
- public double getmyYspeed(){
+public double getmyYspeed(){
    return myYspeed;
  }
-  public double getmyPointDirection(){
+public double getmyPointDirection(){
    return myPointDirection;
   }
 }
